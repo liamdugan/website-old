@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+
+  <body>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!--Background Image-->
+    <div id="background">
+      <img src="images/wallpaper.jpg" alt="">
+    </div>
+
+    <!--Side nav bar-->
+    <ul id="slide-out" class="side-nav">
+      <li><div class="user-view">
+        <a href="#!user"><img class="circle" src="images/profile-pic.jpg"></a>
+        <a href="#!name"><span class="white-text name">Liam Dugan</span></a>
+      </div></li>
+      <li><div class="divider"></div></li>
+      <li>
+        <div id="project-div-header">
+          <a href="#!" class="waves-effectn white-text" id="projects-text">Projects</a>
+        </div>
+      </li>
+      <li>
+        <div class="project-div">
+          <a href="https://devpost.com/software/todd-the-inter-dimensional-bot" class="waves-effectn white-text" id="todd-text"><img class="projects-icon" src="images/robot.png" id="todd-icon">Todd the Interdimensional Robot</a>
+        </div>
+      </li>
+      <li>
+        <div class="project-div">
+          <a href="https://devpost.com/software/fix-yourself" class="waves-effectn white-text" id="fix-yourself-text"><img class="projects-icon" src="images/fix-yourself.png" id="fix-yourself-icon">Fix Yourself</a>
+        </div>
+      </li>
+      <li>
+        <div class="project-div">
+          <a href="https://youtu.be/ekoM4CpIRFg" class="waves-effectn white-text" id="mini-minecraft-text"><img class="projects-icon" src="images/minecraft.png" id="mini-minecraft-icon">Mini-Minecraft</a>
+        </div>
+      </li>
+      <li>
+        <!-- <div class="project-div">
+          <a href="#!" class="waves-effectn white-text" id="penn-os-text"><img class="projects-icon" src="images/download.png" id="pennos-icon">PennOS</a>
+        </div> -->
+      </li>
+    </ul>
+
+    <!--Nav bar activation button-->
+    <div id="container">
+      <a href="#" data-activates="slide-out" class="button-collapse">
+        <i class="medium material-icons nav-icon">menu</i>
+        <!-- <i class="nav-icon" background-color="black" id="japanese-switch-button">To 日本語</i> -->
+      </a>
+    </div>
+
+    <!--Center graphic-->
+    <div class="top-fade center-align">
+        <h3 class="title-name">Liam Dugan</h3>
+        <h5 id="desc-text" class="light grey-text text-lighten-3">Just a geek with a passion for computers</h5>
+        <a id="linkedin-btn" class="waves-effect waves-light btn cntr-button" href="https://www.linkedin.com/in/liam-dugan-95a961135/">
+          Linkedin
+          <img id="linkedin-icon" class="icon" src="images/linkedin.png">
+        </a>
+        <a id="github-btn" class="waves-effect waves-light btn cntr-button" href="https://github.com/liamdugan">
+          Github
+          <img id="github-icon" class="icon" src="images/github.svg">
+        </a>
+        <a id="email-btn" class="waves-effect waves-light btn cntr-button" href="mailto:ldugan@seas.upenn.edu">
+          Email
+          <img id="email-icon" class="icon" src="images/email.svg">
+        </a>
+        <a id="resume-btn" class="waves-effect waves-light btn cntr-button" href="images/resume.pdf">
+          Resume
+          <img id="resume-icon" class="icon" src="images/resume.png">
+        </a>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+</html>

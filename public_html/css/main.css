@@ -1,0 +1,217 @@
+header, main, footer {
+  padding-left: 240px;
+}
+
+.top-fade {
+  width: 100%;
+  height: 500px;
+  top: 25%;
+  animation: topFadeIn 3s 1 forwards;
+}
+
+.title-name {
+  font-size: 100px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  top: 5px;
+  left: 5px;
+}
+
+.side-nav {
+  background-color: black;
+}
+
+.circle {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ffffff;
+}
+
+.name {
+  text-align: center;
+}
+
+.side-nav .user-view .name {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 24px;
+}
+
+.projects-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 21px;
+  margin-top: 14px;
+  margin-left: 10px;
+  margin-bottom: -13px;
+}
+
+.project-div {
+  margin-left: 10px;
+}
+
+.nav-icon {
+  font-size: 4rem;
+  margin-top: 10px;
+  color: black;
+  margin-left: 18px;
+}
+
+.cntr-button {
+  text-align: center;
+  height: 40px;
+  margin-left: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.cntr-button img {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.cntr-button img:after {
+  position: absolute;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.cntr-button:hover img {
+  margin-left: 5px;
+}
+
+.cntr-button:hover img:after {
+  opacity: 1;
+  right: 0;
+}
+
+#resume-btn {
+  background-color: #A76618;
+}
+
+#resume-icon {
+  top: 6px;
+  left: 9px;
+}
+
+#github-btn {
+  background-color: #202529;
+}
+
+#github-icon {
+  top: 7px;
+}
+
+#linkedin-btn {
+  background-color: #006CAC;
+}
+
+#linkedin-icon {
+  top: 6px;
+}
+
+#email-btn {
+  background-color: #26a69a;
+}
+
+#email-icon {
+  top: 7px;
+  left: 6px;
+}
+
+#japanese-switch-button {
+  float: right;
+  font-size: 3rem;
+  margin-top: 15px;
+  margin-right: 10px;
+  color: black;
+  font-style: normal;
+}
+
+#project-div-header {
+  margin-top: 17px;
+  margin-left: 10px;
+}
+
+#sidenav {
+  background-color: white;
+  z-index: 3;
+  margin-right: 21px;
+  margin-top: 14px;
+  margin-left: 10px;
+  margin-bottom: -13px;
+}
+
+#projects-text {
+  margin-top: 23px;
+  margin-bottom: 16px;
+  font-weight: 300;
+  font-size: 29px;
+  line-height: 24px;
+}
+
+#todd-text {
+  font-size: 10px;
+}
+
+#todd-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 21px;
+  margin-top: 14px;
+  margin-left: 10px;
+  margin-bottom: -13px;
+}
+
+#background {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+#background img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  filter: blur(5px);
+}
+
+#desc-text {
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+@keyframes topFadeIn {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  100% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
+  }
+}
